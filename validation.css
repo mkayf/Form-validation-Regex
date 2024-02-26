@@ -1,0 +1,55 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  font-family: "Poppins", "sans-serif";
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 700px;
+}
+.inputs {
+  width: 700px;
+  height: 25px;
+  margin: 20px;
+  font-size: 20px;
+  outline: none;
+}
+
+#submit {
+  width: 100px;
+  height: 35px;
+  font-size: 20px;
+  border: none;
+  position: relative;
+  left: 325px;
+  background-color: rgb(37, 37, 219);
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.errors {
+  position: relative;
+  bottom: 15px;
+  width: 700px;
+  left: 25px;
+  font-size: 15px;
+  color: red;
+}
+h1 {
+  font-size: 40px;
+  color: white;
+}
+label {
+  font-weight: bold;
+  color: white;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form validation using regular expressions</title>
+    <link rel="stylesheet" href="validation.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form action="#" id="form">
+        <h1>Kayfee DigiSkills</h1>
+        <label for="name">Name</label>
+        <input type="text" id="name" class="inputs" />
+        <span id="userError" class="errors"></span>
+        <label for="email">Email</label>
+        <input type="email" id="email" class="inputs" />
+        <span id="emailError" class="errors"></span>
+        <label for="password">Password</label>
+        <input type="text" id="password" class="inputs" />
+        <span id="passError" class="errors"></span>
+        <label for="phNumber">Phone number</label>
+        <input type="text" id="phNumber" class="inputs" />
+        <span id="phoneError" class="errors"></span>
+        <label for="skill">Choose skill</label>
+        <select id="skill" class="inputs">
+          <option value="Select">Select</option>
+          <option value="Front-end development">Front-end development</option>
+          <option value="Back-end development">Back-end development</option>
+          <option value="Full-stack development">Full-stack development</option>
+          <option value="Graphic designing">Graphic Designing</option>
+          <option value="Video editing">Video editing</option>
+          <option value="Digital marketing">Digital marketing</option>
+        </select>
+        <span id="skillError" class="errors"></span>
+        <input type="submit" value="Sign up" id="submit" />
+      </form>
+    </div>
+    <script src="validation.js"></script>
+  </body>
+</html>
